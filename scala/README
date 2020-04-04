@@ -1,0 +1,54 @@
+Hi.  The files (and this README file) listed at the end of this have been 
+placed in your  tasks/scala directory to tell you what is required to complete
+your Scala assignment in CS3342a Fall 2018 .  I have taken 4 problems of simliar
+size from the UCF Programming contest 
+  https://lpc.ucfprogrammingteam.org/index.php/past-contests/past-problem-sets
+specifically the 2017 contest and practice materials.  Different files have 
+been given to different students, so make sure you are working on the ones
+that were given to you.  
+
+The task you are working on is
+   Problem 4: Cut the Cake!
+All the files for that task start with
+   polycake
+following the same convention, your solution will be in a file called
+   tasks/scala/polycake.scala
+
+Case and spelling matters -- remember a computer program will be 
+running the initial checks and if it can't find your program in your
+git repository in the directory specified by the time specified, then it
+is the same as you failing those checks.
+
+The assignment is to implement the task mentioned above in Scala.  Your
+entire solution must fit in one file, you are not allowed to use any libraries
+other than Scala's core libraries documented at 
+        https://www.scala-lang.org/api/current/scala/index.html
+
+You will find sample solutions in C, Java, and Python to help clarify any
+issues with the specification given in the pdf file.
+
+Your solution is expected to pass the provided test data which ends with
+the suffix .in .  The correct solution ends with the suffix .out .  Your
+answer must match exactly so that running a simple Unix diff command
+verifies that your output is correct.
+
+Your solution is also expected to not give any warnings from scalastyle when
+scalastyle is run with the settings indicated on the wiki .  Furthermore, 
+you are not allowed to have in your source code any comments that would cause 
+scalastyle to ignore the required style settings.
+
+Finally, the TA will also make a check to see that your solution is reasonable.
+For example, that it is a plausibly general solution to specified problem and
+that the scalastyle constraints are not gamed, but rather satisfied in a manner
+that reveals the meaning of the program.
+
+File list:
+
+local2017PracticeProblems.pdf
+polycake.c
+polycake.in
+polycake.java
+polycake.out
+polycake.py
+README
+URL

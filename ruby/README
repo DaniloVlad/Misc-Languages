@@ -1,0 +1,54 @@
+Hi.  The files (and this README file) listed at the end of this have been 
+placed in your  tasks/ruby directory to tell you what is required to complete
+your Ruby assignment in CS3342a Fall 2018 .  I have taken 4 problems of simliar
+size from the UCF Programming contest 
+  https://lpc.ucfprogrammingteam.org/index.php/past-contests/past-problem-sets
+specifically the 2017 contest and practice materials.  Different files have 
+been given to different students, so make sure you are working on the ones
+that were given to you.  
+
+The task you are working on is
+   Problem 7: Videogame Probability
+All the files for that task start with
+   game
+Following the same convention, your solution will be in a file called
+   tasks/ruby/game.rb
+
+Case and spelling matters -- remember a computer program will be 
+running the initial checks and if it can't find your program in your
+git repository in the directory specified by the time specified, then it
+is the same as you failing those checks.
+
+The assignment is to implement the task mentioned above in Ruby.  Your
+entire solution must fit in one file, you are not allowed to use any libraries
+other than Ruby's core libraries and stdlib libraries documented at 
+                          ruby-doc.org 
+
+You will find sample solutions in C, Java, and Python to help clarify any
+issues with the specification given in the pdf file.
+
+Your solution is expected to pass the provided test data which ends with
+the suffix .in .  The correct solution ends with the suffix .out .  Your
+answer must match exactly so that running a simple Unix diff command
+verifies that your output is correct.
+
+Your solution is also expected to not give any warnings from reek when
+reek is run with the default settings.  Furthermore, you are not allowed
+to have in your source code any comments that would cause reek to ignore
+the default style settings.
+
+Finally, the TA will also make a check to see that your solution is reasonable.
+For example, that it is a plausibly general solution to specified problem and
+that the reek constraints are not gamed, but rather satisfied in a manner that
+reveals the meaning of the program.
+
+File list:
+
+game.c
+game.in
+game.java
+game.out
+game.py
+local2017Problems.pdf
+README_TEMPLATE
+URL

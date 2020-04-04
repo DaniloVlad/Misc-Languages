@@ -1,0 +1,2 @@
+#!/bin/bash
+java -jar scalastyle_2.12-1.0.0-batch.jar --config scalastyle_config_2.xml "$@"
